@@ -5,10 +5,10 @@ const router=express.Router()
 router.get('/',(req,res)=>{
     res.send('hello from the router')
 })
-router.get('/todo',controllers.get);
-router.post('/todo',controllers.post);
-router.delete('/todo/:name',controllers.delete);
-router.put('/todo/:name',controllers.put);
+router.get('/crud',controllers.get);
+router.post('/crud',controllers.post);
+router.delete('/crud/:name',controllers.delete);
+router.put('/crud/:name',controllers.put);
 
 
 module.exports=router
