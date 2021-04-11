@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\SourcesNet\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bcrypt
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\SourcesNet\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\SourcesNet\AppData\Local\Programs\Python\Python38\;C:\Users\SourcesNet\AppData\Local\Microsoft\WindowsApps;C:\Users\SourcesNet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SourcesNet\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.4\bin\;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "crudapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@hapi/joi": "^17.1.1",
+      "dotenv": "^8.2.0",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "mongoose": "^5.12.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

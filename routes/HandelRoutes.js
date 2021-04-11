@@ -5,10 +5,12 @@ const router=express.Router()
 router.get('/',(req,res)=>{
     res.send('hello from the router')
 })
-router.get('/crud',controllers.get);
-router.post('/crud',controllers.post);
-router.delete('/crud/:name',controllers.delete);
-router.put('/crud/:name',controllers.put);
+router.get('/crudget',controllers.get);
+router.post('/crudpost',controllers.postRigester);
+router.post('/crudlogin',controllers.postLogin);
+router.get('/crudlogout',controllers.Logout);
+router.delete('/crudDelete/:name',controllers.delete);
+router.put('/crudput/:name',controllers.put);
 
 
 module.exports=router
